@@ -1,0 +1,28 @@
+{
+  "name": "throttled-model",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Shaylor <business@adamshaylor.com>"
+  ],
+  "description": "A throttled accompaniment to Angular’s ngModel",
+  "main": "throttled-model.js",
+  "keywords": [
+    "angular",
+    "throttle",
+    "ng-model",
+    "ngModel",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/adamshaylor/throttled-model",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  }
+}
