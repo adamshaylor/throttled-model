@@ -34,7 +34,7 @@
 
 			scope.$watch(attributes.ngModel, function (newModel, oldModel) {
 
-				if (angular.equals(newModel, oldModel)) {
+				if (newModel === undefined && angular.equals(newModel, oldModel)) {
 					return;
 				}
 

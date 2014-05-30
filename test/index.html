@@ -16,6 +16,12 @@
 	<p>{{throttled.textValue}}</p>
 	
 
+	<input type="text" ng-model="prepopulatedTextValue" throttled-model="throttled.prepopulatedTextValue" throttle-ms="2000">
+	
+	<p>{{prepopulatedTextValue}}</p>
+	<p>{{throttled.prepopulatedTextValue}}</p>
+
+
 	<select ng-model="selectValue" throttled-model="throttled.selectValue" throttle-ms="7000">
 		<option value="A">A</option>
 		<option value="B">B</option>

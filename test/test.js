@@ -7,7 +7,9 @@
 	angular.module('throttledModelTest', ['throttledModel']);
 
 
-	angular.module('throttledModelTest').controller('TestController', function () {});
+	angular.module('throttledModelTest').controller('TestController', function ($scope) {
+		$scope.prepopulatedTextValue = 'prepopulated';
+	});
 
 
 })();
