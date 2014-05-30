@@ -1,6 +1,6 @@
 {
   "name": "throttled-model",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A throttled accompaniment to Angular’s ngModel",
   "main": "throttled-model.js",
   "directories": {

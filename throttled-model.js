@@ -7,7 +7,7 @@
 	angular.module('throttledModel', []);
 
 
-	angular.module('throttledModel').directive('throttledModel', ['$timeout', function ($timeout) {
+	angular.module('throttledModel').directive('throttledModel', ['$parse', '$timeout', function ($parse, $timeout) {
 
 
 		var throttledModel = {};
@@ -54,7 +54,7 @@
 
 
 			function updateThrottledModelToLatest () {
-				scope[attributes.throttledModel] = latestModel;
+				$parse(attributes.throttledModel).assign(scope, latestModel);
 			}
 
 
